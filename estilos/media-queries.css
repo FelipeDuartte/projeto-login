@@ -14,7 +14,19 @@
         height: 100%;
         width: 30%;
     }
+    #formulario > p{
+        font-size: 1em;
+        }
 
+    div > input[type=submit]{
+        float: right;
+        width: 70%;
+    }
+
+    div > a.botao{
+        width: 70%;
+        float: right;
+    }
 }
 @media screen and (min-width: 992px){
    body{ background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -27,4 +39,16 @@
         width: 50%;
         height: 100%;
     }
+    #formulario > p{
+        font-size: 1em;
+        }
+        div > input[type=submit]{
+            float: right;
+            width: 50%;
+        }
+    
+        div > a.botao{
+            width: 50%;
+            float: right;
+        }
 }

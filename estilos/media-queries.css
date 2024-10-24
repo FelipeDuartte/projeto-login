@@ -8,6 +8,7 @@
     
     section#login{
         width: 85vw;
+        height: 300px;
     }
     div#imagem{
         float: left;
@@ -27,12 +28,23 @@
         width: 70%;
         float: right;
     }
+    div.campo > input{
+        background-color: #81c0be;
+        font-size: 1em;
+        width: calc(71% - 48.5px);
+        height: 100%;
+        border-radius: 8px;
+        border: none;
+        padding: 6px;
+        transform: translateY(-13px);
+    }
 }
 @media screen and (min-width: 992px){
    body{ background-image: linear-gradient(to top, #49a09d, #5f2c82);
    }
     section#login{
         width: 950px;
+        height: 350px;
     }
     div#imagem{
         float: left;
@@ -50,5 +62,15 @@
         div > a.botao{
             width: 50%;
             float: right;
+        }
+        div.campo > input{
+            background-color: #81c0be;
+            font-size: 1em;
+            width: calc(50% - 45px);
+            height: 100%;
+            border-radius: 8px;
+            border: none;
+            padding: 6px;
+            transform: translateY(-13px);
         }
 }
